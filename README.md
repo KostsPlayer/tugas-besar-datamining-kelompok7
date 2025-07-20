@@ -4,6 +4,30 @@ Repositori ini berisi kerangka kerja (skeleton) proyek data mining yang terstruk
 
 ---
 
+## Stock Price Sentiment
+Proyek ini menilai apakah informasi sosial real-time dapat meningkatkan akurasi prediksi dibanding hanya menggunakan data historis harga saham
+
+## Anggota Kelompok
+- Muhammad Azka Nuril Islami `(714220001)`
+- Gaizka Wisnu Prawira `(714220011)`
+- Muhammad Fathir `(714220021)`
+- Salwa Mutfia Indah Putri `(714220026)`
+
+## Sumber Dataset
+- `Historis` (website investing.com)
+- `Sentimen` (X atau Twitter)
+- `Gabungan` (Dataset gabungan antara data historis dan data sentimen)
+
+## Algoritma
+- Random Forest
+- XGBoost
+- Logistik Regresi
+- SVM
+- MLP
+
+## Evaluasi
+...
+
 ## 🗂 Struktur Direktori
 
 ```
