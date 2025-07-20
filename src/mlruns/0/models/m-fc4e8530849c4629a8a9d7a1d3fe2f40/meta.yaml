@@ -1,0 +1,10 @@
+artifact_location: file:///c:/university/V-DataMining/tugas-besar-datamining-kelompok7/src/mlruns/0/models/m-fc4e8530849c4629a8a9d7a1d3fe2f40/artifacts
+creation_timestamp: 1752998189787
+experiment_id: '0'
+last_updated_timestamp: 1752998192862
+model_id: m-fc4e8530849c4629a8a9d7a1d3fe2f40
+model_type: null
+name: RandomForest_10_fold_model
+source_run_id: aac2d62786814f31a3038caa96c3d8eb
+status: 2
+status_message: null

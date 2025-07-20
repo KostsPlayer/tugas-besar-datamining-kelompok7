@@ -1,0 +1,10 @@
+artifact_location: file:///c:/university/V-DataMining/tugas-besar-datamining-kelompok7/src/mlruns/0/models/m-466530ced8c74fee8f293d0ad3a8e00f/artifacts
+creation_timestamp: 1752998238799
+experiment_id: '0'
+last_updated_timestamp: 1752998241536
+model_id: m-466530ced8c74fee8f293d0ad3a8e00f
+model_type: null
+name: MLP_5_fold_model
+source_run_id: eaa503dc738f4ed49ca30c8eb9b7ead0
+status: 2
+status_message: null

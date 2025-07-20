@@ -1,0 +1,10 @@
+artifact_location: file:///c:/university/V-DataMining/tugas-besar-datamining-kelompok7/src/mlruns/0/models/m-ce882fc9533348469c82b261c2408feb/artifacts
+creation_timestamp: 1752998194722
+experiment_id: '0'
+last_updated_timestamp: 1752998198749
+model_id: m-ce882fc9533348469c82b261c2408feb
+model_type: null
+name: XGBoost_3_fold_model
+source_run_id: dfccefba6bec4548ad2d4cb62465d218
+status: 2
+status_message: null

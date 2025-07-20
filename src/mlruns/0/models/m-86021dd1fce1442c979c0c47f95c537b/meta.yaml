@@ -1,0 +1,10 @@
+artifact_location: file:///c:/university/V-DataMining/tugas-besar-datamining-kelompok7/src/mlruns/0/models/m-86021dd1fce1442c979c0c47f95c537b/artifacts
+creation_timestamp: 1752998227238
+experiment_id: '0'
+last_updated_timestamp: 1752998230038
+model_id: m-86021dd1fce1442c979c0c47f95c537b
+model_type: null
+name: SVC_5_fold_model
+source_run_id: a0dccd87529643599bd8ad711ca63f65
+status: 2
+status_message: null

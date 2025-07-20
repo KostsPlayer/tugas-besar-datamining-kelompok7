@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/university/V-DataMining/tugas-besar-datamining-kelompok7/src/mlruns/0/8b20e787894b49eba32da0dde48ecf6c/artifacts
+end_time: 1752998213731
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b20e787894b49eba32da0dde48ecf6c
+run_name: LogReg_3_fold
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752998210179
+status: 3
+tags: []
+user_id: KostsPlayer

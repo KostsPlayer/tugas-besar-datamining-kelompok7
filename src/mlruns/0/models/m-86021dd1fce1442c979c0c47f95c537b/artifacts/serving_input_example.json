@@ -1,0 +1,44 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "Terakhir",
+      "Pembukaan",
+      "Tertinggi",
+      "Terendah",
+      "Vol.",
+      "Perubahan%",
+      "avg_signed_sentiment",
+      "count_positive",
+      "count_negative",
+      "count_neutral",
+      "total_tweets",
+      "range",
+      "day_return",
+      "sentiment_ratio",
+      "tweet_intensity",
+      "lag_1",
+      "lag_2"
+    ],
+    "data": [
+      [
+        3.83,
+        3.78,
+        3.83,
+        3.75,
+        171430000.0,
+        1.86,
+        0.1987894058227539,
+        1.0,
+        0.0,
+        4.0,
+        5.0,
+        0.08000000000000007,
+        0.018617021276595924,
+        1.0,
+        2.9166423443000505e-08,
+        3.76,
+        3.78
+      ]
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/university/V-DataMining/tugas-besar-datamining-kelompok7/src/mlruns/0/159e9aaa996c4808a7f0b6843d07a3f9/artifacts
+end_time: 1752998209401
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 159e9aaa996c4808a7f0b6843d07a3f9
+run_name: XGBoost_10_fold
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752998205523
+status: 3
+tags: []
+user_id: KostsPlayer

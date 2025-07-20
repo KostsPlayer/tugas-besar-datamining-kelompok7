@@ -1,0 +1,10 @@
+artifact_location: file:///c:/university/V-DataMining/tugas-besar-datamining-kelompok7/src/mlruns/0/models/m-3ade1910362c4c02a47e75682339b67f/artifacts
+creation_timestamp: 1752998152749
+experiment_id: '0'
+last_updated_timestamp: 1752998155487
+model_id: m-3ade1910362c4c02a47e75682339b67f
+model_type: null
+name: Model_model
+source_run_id: 15228b06c9bc40df85ed835339a35781
+status: 2
+status_message: null

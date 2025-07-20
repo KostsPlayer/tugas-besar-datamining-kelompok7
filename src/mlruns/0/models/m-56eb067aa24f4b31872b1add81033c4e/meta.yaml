@@ -1,0 +1,10 @@
+artifact_location: file:///c:/university/V-DataMining/tugas-besar-datamining-kelompok7/src/mlruns/0/models/m-56eb067aa24f4b31872b1add81033c4e/artifacts
+creation_timestamp: 1752998210500
+experiment_id: '0'
+last_updated_timestamp: 1752998213713
+model_id: m-56eb067aa24f4b31872b1add81033c4e
+model_type: null
+name: LogReg_3_fold_model
+source_run_id: 8b20e787894b49eba32da0dde48ecf6c
+status: 2
+status_message: null
