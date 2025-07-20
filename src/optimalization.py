@@ -33,6 +33,7 @@ def optimize_func(model, param_grid, X, y, n_splits=5):
     - best_estimator_: model terbaik hasil tuning
     - best_params_: parameter terbaik
     """
+
     tscv = TimeSeriesSplit(n_splits=n_splits)
     pipeline = Pipeline([
         ('scaler', StandardScaler()),
@@ -200,6 +201,7 @@ def summary_optimalization(results_optimized):
     return df_optimized
 
 
+"""
 # Contoh pemanggilan (hapus saat produksi)
 if __name__ == "__main__":
     try:
@@ -211,3 +213,4 @@ if __name__ == "__main__":
         summary_optimalization(results_optimized)                                           # tampilkan rangkuman hasil evaluasi
     except Exception as e:
         print(e)
+"""

@@ -84,6 +84,7 @@ def feature_engineering(df):
     return df
 
 
+"""
 # Contoh pemanggilan (hapus saat produksi)
 if __name__ == "__main__":
     try:
@@ -92,3 +93,4 @@ if __name__ == "__main__":
         df = feature_engineering(df)            # lakukan feature engineering
     except Exception as e:
         print(e)
+"""

@@ -30,7 +30,7 @@ def load_csv(filename):
     return pd.read_csv(file_path)
 
 
-def preview_data(df):
+def preview_data(df, rows=5):
     """
     Menampilkan preview awal dari dataframe
     
@@ -38,13 +38,15 @@ def preview_data(df):
         df (pd.DataFrame): Dataframe yang akan dipreview
         rows (int): Jumlah baris untuk ditampilkan
     """
-    df
     df.info()
+    df.head(rows)
 
 
+"""
 # Contoh pemanggilan (hapus saat produksi):
 if __name__ == "__main__":
     try:
         df = load_csv("your_dataset.csv")  # ganti nama file sesuai kebutuhan
     except Exception as e:
         print(e)
+"""

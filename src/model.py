@@ -108,20 +108,20 @@ def evaluate_model(model_or_pipeline, X, y, model_name="Model"):
             print(classification_report(y_test, y_pred, zero_division=0))
 
             # Confusion Matrix plot
-            plt.figure(figsize=(5, 4))
-            sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
-            plt.title(f"{model_name} - Fold {fold} Confusion Matrix")
-            plt.xlabel("Predicted")
-            plt.ylabel("Actual")
-            plt.tight_layout()
-            plt.show()
+            # plt.figure(figsize=(5, 4))
+            # sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+            # plt.title(f"{model_name} - Fold {fold} Confusion Matrix")
+            # plt.xlabel("Predicted")
+            # plt.ylabel("Actual")
+            # plt.tight_layout()
+            # plt.show()
 
             # ROC Curve via Yellowbrick
-            if y_proba is not None:
-                visualizer = ROCAUC(pipeline.named_steps['model'], classes=["Neg", "Pos"], binary=True)
-                visualizer.fit(X_train, y_train)
-                visualizer.score(X_test, y_test)
-                visualizer.show()
+            # if y_proba is not None:
+            #     visualizer = ROCAUC(pipeline.named_steps['model'], classes=["Neg", "Pos"], binary=True)
+            #     visualizer.fit(X_train, y_train)
+            #     visualizer.score(X_test, y_test)
+            #     visualizer.show()
         else:
             print(f"\n⚠️ Fold {fold}: Only one class present in y_test, skipping metrics.")
         
@@ -145,6 +145,7 @@ def evaluate_model(model_or_pipeline, X, y, model_name="Model"):
     return {**mean_metrics, **std_metrics}
 
 
+"""
 # Contoh pemanggilan (hapus saat produksi)
 if __name__ == "__main__":
     try:
@@ -155,3 +156,4 @@ if __name__ == "__main__":
         print(results)
     except Exception as e:
         print("Terjadi kesalahan saat evaluasi:", e)
+"""

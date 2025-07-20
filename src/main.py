@@ -30,7 +30,6 @@ def main():
     # Preview data
     preview_data(df_default)
 
-
     # 2. Preprocessing
     preprocessing(df_default)
     feature_engineering(df_default)
@@ -48,7 +47,8 @@ def main():
 
     # historis
     features_hist = ['Terakhir', 'Pembukaan', 'Tertinggi', 'Terendah', 'Vol.', 'Perubahan%']
-    results_hist = historical_models(df, features_hist, y)
+    X_hist = df[features_hist]
+    results_hist = historical_models(X_hist, y)
     summary_hist(results_hist)
 
     # merged (historis + sentimen)
@@ -58,12 +58,13 @@ def main():
     'range', 'day_return', 'sentiment_ratio', 'tweet_intensity',
     'lag_1', 'lag_2'
     ]
-    results_merged = merged_models(df, features_merged, y)
+    X_merged = df[features_merged]
+    results_merged = merged_models(X_merged, y)
     summary_merged(results_merged)
 
     # 4. Optimalization model
-    optimized_models = all_optimization(features_merged, y)
-    results_optimized = optimalization_models(optimized_models, features_merged, y) 
+    optimized_models = all_optimization(X_merged, y)
+    results_optimized = optimalization_models(optimized_models, X_merged, y) 
     summary_optimalization(results_optimized)
 
 if __name__ == "__main__":

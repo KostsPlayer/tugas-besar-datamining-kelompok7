@@ -10,7 +10,7 @@ from model import models, evaluate_model
 import pandas as pd
 
 
-def historical_models(df, features_hist, y):
+def historical_models(X_hist, y):
     """
     Menjalankan pemodelan dan evaluasinya terhadap fitur historis yang telah ditentukan.
 
@@ -26,8 +26,7 @@ def historical_models(df, features_hist, y):
     Output:
     - results_hist: dictionary berisi metrik evaluasi tiap model
     """
-    X_hist = df[features_hist]
-
+    
     print("🔹 Tahap 1: Data Historis")
     results_hist = {}
 
@@ -52,6 +51,7 @@ def summary_hist(results_hist):
     return df_historis
 
 
+"""
 # Contoh pemanggilan (hapus saat produksi)
 if __name__ == "__main__":
     try:
@@ -63,3 +63,4 @@ if __name__ == "__main__":
         summary_hist(results_hist)                              # tampilkan rangkuman hasil evaluasi
     except Exception as e:
         print(e)
+"""

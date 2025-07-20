@@ -10,7 +10,7 @@ from model import models, evaluate_model
 import pandas as pd
 
 
-def merged_models(df, features_merged, y):
+def merged_models(X_merged, y):
     """
     Menjalankan pemodelan dan evaluasinya terhadap semua fitur yang telah ditentukan.
 
@@ -26,7 +26,6 @@ def merged_models(df, features_merged, y):
     Output:
     - results_merged: dictionary berisi metrik evaluasi tiap model
     """
-    X_merged = df[features_merged]
 
     print("🔹 Tahap 1: Data Historis")
     results_merged = {}
@@ -51,6 +50,7 @@ def summary_merged(results_merged):
     return df_merged
 
 
+"""
 # Contoh pemanggilan (hapus saat produksi)
 if __name__ == "__main__":
     try:
@@ -62,3 +62,4 @@ if __name__ == "__main__":
         summary_merged(results_merged)                          # tampilkan rangkuman hasil evaluasi
     except Exception as e:
         print(e)
+"""
