@@ -26,10 +26,11 @@ Proyek ini menilai apakah informasi sosial real-time dapat meningkatkan akurasi 
 - MLP
 
 ## Evaluasi Didasarkan pada F1 Score Mean – Std (Standar Deviasi)
-| Model | Random Forest | XGBoost | Logistik Regresi | SVC | MLP |
-| Historis | 0.44 – 0.32 | 0.26 – 0.20 | 0.19 – 0.27 | 0.44 – 0.31 | 0.44 – 0.32 |
-| Merged | 0.51 – 0.37 | 0.55 – 0.39 | 0.45 – 0.35 | 0.22 – 0.31 | 0.42 – 0.35 |
-| Optimation | 0.51 – 0.37 | 0.55 – 0.39 | 0.45 – 0.35 | 0.56 – 0.42 | 0.47 – 0.41 |   
+| Model      | Random Forest | XGBoost     | Logistik Regresi | SVC         | MLP         |
+|------------|---------------|-------------|------------------|-------------|-------------|
+| Historis   | 0.44 – 0.32   | 0.26 – 0.20 | 0.19 – 0.27      | 0.44 – 0.31 | 0.44 – 0.32 |
+| Merged     | 0.51 – 0.37   | 0.55 – 0.39 | 0.45 – 0.35      | 0.22 – 0.31 | 0.42 – 0.35 |
+| Optimation | 0.51 – 0.37   | 0.55 – 0.39 | 0.45 – 0.35      | 0.56 – 0.42 | 0.47 – 0.41 |   
 
 ## 🗂 Struktur Direktori
 
