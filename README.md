@@ -85,9 +85,13 @@ src/main_notebook.ipynb
 
 ## 📦 Struktur Modular
 
-- **`data_loader.py`**: fungsi `load_raw_data()` dan `save_processed_data()`
-- **`model.py`**: fungsi `train_model()`, split data, dan prediksi
-- **`utils.py`**: evaluasi model (akurasi, classification report, dll.)
+- **`data_loader.py`**: fungsi `load_csv()` dan `preview_data()`
+- **`preprocessing.py`**: fungsi `preprocessing()` dan `feature_engineering()`
+- **`model.py`**: variabel `models`, fungsi `directional_accuracy()` dan `evaluate_model()`
+- **`historis.py`**: fungsi `historical_models()` dan `summary_hist()`
+- **`merged.py`**: fungsi `merged_models()` dan `summary_merged()`
+- **`optimalization.py`**: fungsi `optimize_func()`, `all_optimization()`, `optimalization_models()`, dan `summary_optimalization()`
+- **`visualization.py`**: fungsi `process_historis()`, `process_merged()`, `process_optimation()`, `marker_style()`, dan `plot_results()`
 
 ---
 
