@@ -47,7 +47,7 @@ def main():
     # 3. Train & evaluate model
 
     # historis
-    features_hist = ['Terakhir', 'Pembukaan', 'Tertinggi', 'Terendah', 'Vol.', 'Perubahan%']
+    features_hist = ['Terakhir', 'Pembukaan', 'Tertinggi', 'Terendah', 'Vol.', 'Perubahan%', 'range', 'day_return', 'lag_1', 'lag_2']
     X_hist = df[features_hist]
     results_hist = historical_models(X_hist, y)
     df_historis = summary_hist(results_hist)
