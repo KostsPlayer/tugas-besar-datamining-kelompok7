@@ -1,0 +1,48 @@
+1.	A. Bagheffar and C. Saous, “The Impact of Investor Sentiment on Stock Returns in the Indonesian Stock Market During the Period (2001-2022): An Econometric Study.” 
+https://jiamcs.centre-univ-mila.dz/index.php/fber/article/view/1760 
+
+2.	“Investor sentiment and stock prices,” Academic Journal of Business & Management, vol. 5, no. 22, 2023, doi: 10.25236/ajbm.2023.052215.
+https://www.francis-press.com/uploads/papers/WJ0EuktkCfOb8n7jJrnmubkRAs2kzM7J9tVNLvXZ.pdf 
+
+3.	G. Liu, Y. Yang, W. Mo, W. Gu, and R. Wang, “Private Placement, Investor Sentiment, and Stock Price Anomaly,” Journal of Advanced Computational Intelligence and Intelligent Informatics, vol. 27, no. 5, pp. 771–779, Sep. 2023, doi: 10.20965/jaciii.2023.p0771.
+https://www.jstage.jst.go.jp/article/jaciii/27/5/27_771/_pdf/-char/ja 
+
+4.	Z. Janková, “CRITICAL REVIEW OF TEXT MINING AND SENTIMENT ANALYSIS FOR STOCK MARKET PREDICTION,” Journal of Business Economics and Management, vol. 24, no. 1, pp. 177–198, Jan. 2023, doi: 10.3846/jbem.2023.18805.
+https://journals.vilniustech.lt/index.php/JBEM/article/view/18805/11671 
+
+5.	P. Patel, “Real-Time Sentiment Analysis of Twitter Streams for Stock Forecasting,” International Journal of Computer Trends and Technology, vol. 72, no. 5, pp. 204–209, May 2024, doi: 10.14445/22312803/ijctt-v72i5p125
+https://ijcttjournal.org/Volume-72%20Issue-5/IJCTT-V72I5P125.pdf 
+ 
+6.	M. Mokhtari, A. Seraj, N. Saeedi, and A. Karshenas, “The Impact of Twitter Sentiments on Stock Market Trends
+https://arxiv.org/pdf/2302.07244 
+
+7.	Z. Li, “The Impact of Social Media Sentiment on Stock Price Changes,” Advances in Economics, Management and Political Sciences, vol. 170, no. 1, pp. 49–59, Jun. 2025, doi: 10.54254/2754-1169/2025.lh23972
+https://www.ewadirect.com/proceedings/aemps/article/view/23972/pdf 
+
+8.	E. Arif, S. Suherman, and A. P. Widodo, “Predicting Stock Prices of Digital Banks: A Machine Learning Approach Combining Historical Data and Social Media Sentiment from X,” Ingenierie des Systemes d’Information, vol. 30, no. 3, pp. 687–701, Mar. 2025, doi: 10.18280/isi.300313
+https://www.iieta.org/journals/isi/paper/10.18280/isi.300313? 
+
+9.	P. W. Rahayu et al., Buku Ajar Data Mining. PT. Sonpedia Publishing Indonesia, 2024
+https://books.google.co.id/books?id=vCruEAAAQBAJ&lpg=PA83&ots=TpKL7VsKrw&dq=P.%20W.%20Rahayu%20et%20al.%2C%20Buku%20Ajar%20Data%20Mining.%20PT.%20Sonpedia%20Publishing%20Indonesia%2C%202024&lr&hl=id&pg=PA82#v=onepage&q&f=false
+
+10.	G. H. F. N. S. D. B. I. T. A. V. Y. P. R. Y. I. I. A. L. S. C. A. C. R. A. I. R. S. M. R. S. R. Maulani, Machine Learning. CV. Mega Press Nusantara, 2025
+https://books.google.co.id/books?hl=id&lr=&id=RblPEQAAQBAJ&oi=fnd&pg=PR8&dq=Maulani,+Machine+Learning.+CV.+Mega+Press+Nusantara,+2025&ots=emmHpIy_RO&sig=0395huowPlFRJxSgEXBU9qwASbg&redir_esc=y#v=onepage&q=Maulani%2C%20Machine%20Learning.%20CV.%20Mega%20Press%20Nusantara%2C%202025&f=false 
+
+11.	N. P. I. Maharani, Y. Yustiawan, F. C. Rochim, and A. Purwarianti, “Domain-Specific Language Model Post-Training for Indonesian Financial NLP,” Oct. 2023, [Online]. http://arxiv.org/abs/2310.09736
+
+link drive (referensi yang sudah di download): https://drive.google.com/drive/folders/19l5U-0eVDafrrsJ6oBjPmkqD8Bi48Ups?usp=sharing 
+
+12 & 14.	H. Zolfagharinia, M. Najafi, S. Rizvi, and A. Haghighi, “Unleashing the Power of Tweets and News in Stock-Price Prediction Using Machine-Learning Techniques,” Algorithms, vol. 17, no. 6, Jun. 2024, doi: 10.3390/a17060234
+https://www.mdpi.com/1999-4893/17/6/234 
+
+13 & 15 & 17.	P. Koukaras, C. Nousi, and C. Tjortjis, “Stock Market Prediction Using Microblogging Sentiment Analysis and Machine Learning,” Telecom, vol. 3, no. 2, pp. 358–378, Jun. 2022, doi: 10.3390/telecom3020019
+https://www.mdpi.com/2673-4001/3/2/19  
+
+16.	Y. Luan, H. Zhang, C. Zhang, Y. Mu, and W. Wang, “Stock Price Prediction with Sentiment Analysis for Chinese Market,” 2024. [Online].
+https://aclanthology.org/2024.finnlp-1.16.pdf  
+
+18.	C. Schröer, F. Kruse, and J. M. Gómez, “A systematic literature review on applying CRISP-DM process model,” in Procedia Computer Science, Elsevier B.V., 2021, pp. 526–534. doi: 10.1016/j.procs.2021.01.199
+https://www.sciencedirect.com/science/article/pii/S187705092100661X?via%3Dihub 
+
+link drive (referensi yang sudah di download): https://drive.google.com/drive/folders/1OWWUlfj0qXYtLAtWvgZiDlQcw6F83cPr?usp=sharing
+
