@@ -37,30 +37,33 @@ Proyek ini menilai apakah informasi sosial real-time dapat meningkatkan akurasi 
 ```
 tube_data_mining/
 │
-├── data/                      # Folder untuk menyimpan dataset
-│   ├── raw/                   # Data mentah (belum diproses)
-│   └── processed/             # Data setelah preprocessing
+├── data/                              # Folder untuk menyimpan dataset
+│   ├── raw/                           # Data mentah (belum diproses)
+│   └── processed/                     # Data setelah preprocessing
 │
-├── notebook/                 # Jupyter Notebook interaktif
-│   ├── eda_template.ipynb     # Template untuk eksplorasi data
-│   ├── preprocessing_template.ipynb  # Template untuk preprocessing
-│   └── modeling_template.ipynb       # Template untuk pelatihan model
+├── notebook/                          # Jupyter Notebook interaktif
+│   ├── eda_template.ipynb             # Template untuk eksplorasi data
+│   └── preprocessing_template.ipynb   # Template untuk preprocessing
 │
-├── report/                   # Template laporan akhir
-│   ├── laporan-akhir_template.pdf
-│   ├── lampiran_template.docx
-│   └── struktur-lampiran.md
+├── report/                            # Template laporan akhir
+│   ├── laporan-akhir.docx
+│   ├── laporan-akhir.pdf
+│   └── presentasi-akhir.pdf
 │
-├── src/                      # Source code modular
-│   ├── data_loader.py         # Fungsi load dan simpan data
-│   ├── model.py               # Fungsi training model
-│   ├── utils.py               # Evaluasi model dan fungsi bantu
-│   ├── main.py                # Main pipeline untuk dijalankan via terminal
-│   └── main_notebook.ipynb    # Versi notebook dari main.py
+├── src/                               # Source code modular
+│   ├── data_loader.py                 # Fungsi load dan simpan data
+|   ├── preprocessing.py               # Fungsi preprocessing data dan pengadaan fitur-fitur pendukung baru
+│   ├── model.py                       # Fungsi template model
+|   ├── historis.py                    # Fungsi model berdasarkan sekedar data dan fitur historis
+|   ├── merged.py                      # Fungsi model berdasarkan data dan fitur gabungan antara historis dan sentimen
+|   ├── optimalization.py              # Fungsi mengoptimalkan model gabungan berdasarkan pendekatan parameter terbaik
+|   ├── visualization.py               # Fungsi visualisasi dari hasil perbandingan semua model
+│   ├── main.py                        # Main pipeline untuk dijalankan via terminal
+│   └── main_notebook.ipynb            # Versi notebook dari main.py
 │
-├── run.sh                    # Script bash untuk menjalankan pipeline
-├── requirements.txt          # Daftar dependensi Python
-└── README.md                 # Dokumentasi ini
+├── run.sh                             # Script bash untuk menjalankan pipeline
+├── requirements.txt                   # Daftar dependensi Python
+└── README.md                          # Dokumentasi ini
 ```
 
 ---
