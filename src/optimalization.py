@@ -198,6 +198,7 @@ def summary_optimalization(results_optimized):
     
     print("\n Rangkuman Evaluasi Model (Optimasi):")
     df_optimized = pd.DataFrame(results_optimized).T
+    
     return df_optimized
 
 

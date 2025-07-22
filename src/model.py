@@ -35,7 +35,7 @@ models = {
     "RandomForest": RandomForestClassifier(n_estimators=100, random_state=42),
     "XGBoost": XGBClassifier(eval_metric='logloss'),
     "LogReg": LogisticRegression(max_iter=1000),
-    "SVM": SVC(),
+    "SVC": SVC(),
     "MLP": MLPClassifier(max_iter=1000, random_state=42)
 }
 
